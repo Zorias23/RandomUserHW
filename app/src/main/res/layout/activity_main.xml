@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.randomuserhw.MainActivity">
+
+ <Button
+     android:id="@+id/btnRandomUser"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Random User"
+     android:onClick="displayRandomUser"/>
+
+    <Button
+        android:id="@+id/btnRandomUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Random Users"
+        android:onClick="displayRandomUsers"/>
+
+    <Button
+        android:id="@+id/btnRandomMaleUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Random Male Users"
+        android:onClick="displayRandomMaleUsers"/>
+
+    <Button
+        android:id="@+id/btnFemaleRandomUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Random Female Users"
+        android:onClick="displayRandomFemaleUsers"/>
+
+</LinearLayout>
